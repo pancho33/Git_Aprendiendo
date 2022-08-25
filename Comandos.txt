@@ -1,0 +1,33 @@
+Video de Youtube de HolaMundo Aprende GIT ahora!
+https://www.youtube.com/watch?v=VdGzPZ31ts8
+
+
+Actualicación del GIT en Windows
+git update-git-for-windows
+
+
+Configuracion del GIT:
+git --version o git -v //para ver la version instalada
+git config --global user.name "Pancho Garcia-Almenta"
+git config --global user.email drowobservador@hotmail.com
+git config --global core.editor "code --wait" // Abre por defecto el VScode al editar
+git config --global core.autoclrf true //True para windows auto para Linux/Mac
+git config --global -e // Edita la configuración global
+
+git config -h //para ver las opciones de config
+
+Comandos BASH:
+ls   / ls a
+mkdir
+rm remover archivos
+mv archivo  para renombrar archivos
+
+Comandos de GIT:
+git init //para inicializar el seguimiento de Git de un directorio
+git status //nos da el estado del directorio
+git add nombre_de_archivo //para añadir archivos al stage
+git commit -m "Descripcion de porque se ha hecho el commit"
+git rm nombre_de_archivo //para borrar un archivo y no tener que hacer el commit
+git add/rm
+git restore
+git mv archivo nuevoarchivo
