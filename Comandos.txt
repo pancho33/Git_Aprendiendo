@@ -41,3 +41,5 @@ git checkout -b nombre_rama //para crear una rama
 git checkout master //para volver a la raiz
 git merge ramab //para incluir los cambios de la ramab
 git merge ramab //hay que hacerlo desde master
+git remote add origin https://github.com/pancho33/Git_Aprendiendo.git
+git push -u origin master
