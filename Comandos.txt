@@ -39,3 +39,5 @@ git log --oneline
 git branch //para ver en que rama estoy trabajando
 git checkout -b nombre_rama //para crear una rama 
 git checkout master //para volver a la raiz
+git merge ramab //para incluir los cambios de la ramab
+git merge ramab //hay que hacerlo desde master
