@@ -32,4 +32,4 @@ git add/rm
 git restore
 git mv archivo nuevoarchivo
 git status -s
-
+git diff para ver cambios que se van a hacer antes del commit
