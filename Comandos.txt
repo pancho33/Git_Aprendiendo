@@ -43,3 +43,5 @@ git merge ramab //para incluir los cambios de la ramab
 git merge ramab //hay que hacerlo desde master
 git remote add origin https://github.com/pancho33/Git_Aprendiendo.git
 git push -u origin master
+git push //para subir los cambios a GitHub
+
