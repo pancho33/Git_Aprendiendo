@@ -4,7 +4,8 @@ https://www.youtube.com/watch?v=VdGzPZ31ts8
 
 Actualicación del GIT en Windows
 git update-git-for-windows
-
+Actualicación del GIT en Mac
+brew upgrade git
 
 Configuracion del GIT:
 git --version o git -v //para ver la version instalada
