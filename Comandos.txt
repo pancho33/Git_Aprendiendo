@@ -33,3 +33,8 @@ git restore
 git mv archivo nuevoarchivo
 git status -s
 git diff para ver cambios que se van a hacer antes del commit
+git diff --staged //para ver los cambios aprobados por commit
+git log
+git log --oneline
+git branch //para ver en que rama estoy trabajando
+git checkout -b nombre_rama //para crear una rama 
