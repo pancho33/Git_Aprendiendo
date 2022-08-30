@@ -13,7 +13,28 @@ git config --global user.name "Pancho Garcia-Almenta"
 git config --global user.email drowobservador@hotmail.com
 git config --global core.editor "code --wait" // Abre por defecto el VScode al editar
 git config --global core.autoclrf true //True para windows auto para Linux/Mac
-git config --global -e // Edita la configuración global
+
+OJO!!
+En el Mac hay que añadir el path del VScode para que sea el editor x defecto:
+    Make sure you can run code --help from the command line and you get help.
+
+        if you do not see help, please follow these steps:
+
+            Mac: Select Shell Command: Install 'Code' command in path from the Command Palette.
+                Command Palette is what pops up when you press shift + ⌘ + P while inside VS Code. (shift + ctrl + P in Windows)
+            Windows: Make sure you selected Add to PATH during the installation.
+            Linux: Make sure you installed Code via our new .deb or .rpm packages.
+    From the command line, run git config --global core.editor "code --wait"
+
+Now you can run git config --global -e and use VS Code as editor for configuring Git. 
+
+
+
+git config --global init.defaultBranch main  // Si no se añade esto se nombra como master, pero el Github es main y se enchocha
+
+git config --global -e // Edita
+ la configuración global
+git version
 
 git config -h //para ver las opciones de config
 
